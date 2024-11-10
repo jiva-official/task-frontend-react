@@ -1,0 +1,56 @@
+.collection-details-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.collection-details-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.task-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-card h3 {
+  font-size: 1.2rem;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.task-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.task-card div {
+  font-size: 1rem;
+}
+
+.add-task-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.add-task-button:hover {
+  background-color: #218838;
+}
